@@ -157,7 +157,7 @@ body {
   font-size: 14px;
   line-height: 2;
   color: #555;
-  background: #8deeee;
+  background: #00ecff;
 }
 @media (max-width: 991px) {
   body {
@@ -1767,7 +1767,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fffffb;
+  background: #ffb357;
 }
 .feed-link,
 .chat {
@@ -2443,7 +2443,7 @@ ul.breadcrumb li+li:last-child {
   float: left;
   margin-left: -100%;
   width: 240px;
-  background: #8deeee;
+  background: #00ecff;
   box-shadow: none;
 }
 @media (max-width: 991px) {
