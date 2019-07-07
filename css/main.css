@@ -1852,7 +1852,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #448785;
+  background: #cb1a2a;
 }
 .feed-link,
 .chat {
@@ -2918,4 +2918,42 @@ pre {
 .header-inner {
   background: #fff;
   opacity: 0.9;
+}
+.site-meta {
+  background: #00ffe4;
+}
+.site-title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 36px;
+  font-size: 45px;
+  font-weight: normal;
+  font-family: 'Lato', "PingFang SC", "FZShuTi", sans-serif;
+  color: #000;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #000;
+  font-family: 'Lato', "PingFang SC", "STXingkai", sans-serif;
+}
+.footer {
+  font-size: 14px;
+  color: #000;
+}
+.menu .menu-item a:hover,
+.menu-item-active a {
+  background: rgba(255,255,255,0.522);
+  border-bottom-color: rgba(220,209,209,0.588);
+}
+.menu-item-active a:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  right: 15px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #484848;
 }
