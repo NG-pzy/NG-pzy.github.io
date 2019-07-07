@@ -1852,7 +1852,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe7ff;
+  background: #7ee24a;
 }
 .feed-link,
 .chat {
@@ -2907,4 +2907,15 @@ pre {
   color: #fc6423;
   border-bottom: none;
   border-bottom: 1px solid #fc6423;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.9;
+}
+.post-block {
+  background: rgba(255,255,255,0.9);
+}
+.header-inner {
+  background: #fff;
+  opacity: 0.9;
 }
