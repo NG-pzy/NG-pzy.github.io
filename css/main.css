@@ -1852,7 +1852,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffbdff;
+  background: #ffe7ff;
 }
 .feed-link,
 .chat {
@@ -2866,7 +2866,7 @@ ul.breadcrumb li+li:last-child {
 }
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("/images/4.png");
+    background-image: url("/images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
