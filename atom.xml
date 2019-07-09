@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-07T15:53:44.242Z</updated>
+  <updated>2019-07-09T06:14:40.377Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>同余定理证明</title>
+    <link href="http://yoursite.com/2019/07/09/%E5%90%8C%E4%BD%99%E5%AE%9A%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <id>http://yoursite.com/2019/07/09/同余定理证明/</id>
+    <published>2019-07-09T06:11:46.000Z</published>
+    <updated>2019-07-09T06:14:40.377Z</updated>
+    
+    <content type="html"><![CDATA[<p>费马小定理、欧拉定理</p><a id="more"></a><p><img src="https://s1.ax1x.com/2018/10/30/iR90p9.png" alt></p><p><img src="https://s1.ax1x.com/2018/10/30/iR9D61.png" alt></p><p><img src="https://s1.ax1x.com/2018/10/30/iR9aY4.png" alt></p><p><img src="https://s1.ax1x.com/2018/10/30/iR9tTU.png" alt></p><p><img src="https://s1.ax1x.com/2018/10/30/iR9UkF.png" alt></p><p><img src="https://s1.ax1x.com/2018/10/30/iR9BlR.png" alt></p><p><img src="https://s1.ax1x.com/2018/10/30/iR9dfJ.png" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;费马小定理、欧拉定理&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="数学" scheme="http://yoursite.com/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="数学，同余" scheme="http://yoursite.com/tags/%E6%95%B0%E5%AD%A6%EF%BC%8C%E5%90%8C%E4%BD%99/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
