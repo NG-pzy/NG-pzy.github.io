@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="PZY＇s Blog">
 <meta property="og:description" content="$\text{Miller-Robbin}$ 与 $\text{Pollard Rho}$ 虽然都是随机算法，不过用起来是真的爽。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-10T16:55:39.855Z">
+<meta property="og:updated_time" content="2019-07-10T16:57:36.023Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅谈 Miller-Robbin 与 Pollard Rho">
 <meta name="twitter:description" content="$\text{Miller-Robbin}$ 与 $\text{Pollard Rho}$ 虽然都是随机算法，不过用起来是真的爽。">
@@ -441,7 +441,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-11 00:55:39" itemprop="dateModified" datetime="2019-07-11T00:55:39+08:00">2019-07-11</time>
+                <time title="修改时间：2019-07-11 00:57:36" itemprop="dateModified" datetime="2019-07-11T00:57:36+08:00">2019-07-11</time>
               
             
           </span>
@@ -495,7 +495,7 @@
       
         <p>$\text{Miller-Robbin}$ 与 $\text{Pollard Rho}$ 虽然都是随机算法，不过用起来是真的爽。</p>
 <a id="more"></a>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>$\text{Miller Rabin}$ 算法是一种高效的质数判断方法。虽然是一种不确定的质数判断法，但是在选择多种底数的情况下，正确率是可以接受的。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>$\text{Miller-Robbin}$ 算法是一种高效的质数判断方法。虽然是一种不确定的质数判断法，但是在选择多种底数的情况下，正确率是可以接受的。</p>
 <p>$\text{Pollard Rho}$ 是一个非常玄学的方式，用于在 $\text{O(n^{1/4})}$ 的期望时间复杂度内计算合数$\text{n}$的某个非平凡因子。事实上算法导论给出的是 $\text{O(\sqrt p)}$ ， $\text{p}$ 是 $\text{n}$ 的某个最小因子，满足 $\text{p}$ 与 $\text{\frac{n}{p}}$ 互质。</p>
 <p>但是这些都是期望，未必符合实际。但事实上 $\text{Pollard Rho}$ 算法在实际环境中运行的相当不错。注：以上摘自某谷。</p>
 <h1 id="Miller-Robbin"><a href="#Miller-Robbin" class="headerlink" title="Miller-Robbin"></a>Miller-Robbin</h1><h2 id="前置芝士"><a href="#前置芝士" class="headerlink" title="前置芝士"></a>前置芝士</h2><ol>
@@ -1290,6 +1290,53 @@
   
 
   
+  
+
+  
+  
+
+  
+    
+      <script type="text/x-mathjax-config">
+  
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+  
+
 
   
 
