@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-09-13T03:38:42.614Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/07/09/%E6%B5%85%E8%B0%88-Miller-Robbin-%E4%B8%8E-Pollard-Rho/</loc>
     
     <lastmod>2019-07-10T17:24:40.000Z</lastmod>
